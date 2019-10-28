@@ -1,0 +1,13 @@
+/home/ubuntu/searchs/log/jupyterlab.log {
+    weekly
+    rotate 20
+
+    compress
+    delaycompress
+    copytruncate
+    missingok
+    notifempty
+
+    create 644 ubuntu ubuntu
+    dateext
+}

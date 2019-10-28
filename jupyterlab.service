@@ -1,0 +1,10 @@
+# Default-Start:  2 3 4 5
+# Default-Stop: 0 1 6
+[Unit]
+Description=jupyterlab
+After=syslog.target network.target
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/searchs/jupyterlab.sh
+[Install]
+WantedBy=default.target
